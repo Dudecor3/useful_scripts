@@ -1,3 +1,7 @@
+/*
+* This node server will serve the shit out of your project. 
+*/
+
 var http = require("http"),
     url = require("url"),
     path = require("path"),
