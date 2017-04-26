@@ -1,12 +1,13 @@
 /*
-* This node server will serve the shit out of your project. 
+* This node server will serve the shit out of your project. To use this server, add it to your project root, navigate to the root
+* of the project via cmd/bash/terminal and use node node-server.js. Then simply open a browser and open http://localhost:8080
 */
 
 var http = require("http"),
     url = require("url"),
     path = require("path"),
     fs = require("fs")
-    port = process.argv[2] || 8000;
+    port = process.argv[2] || 8080;
 
 http.createServer(function(request, response) {
 
