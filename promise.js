@@ -1,5 +1,5 @@
 /*
-* This is a script that allows you to make HTTP calls to fetch JSON data. The script follows a OOP approach.  
+* This is a script that allows you to make HTTP calls to fetch JSON data. The script follows an OOP approach.  
 */
 
 /*
