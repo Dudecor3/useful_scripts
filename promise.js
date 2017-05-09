@@ -45,7 +45,7 @@ var DataService = function (ajaxService) {
                 response.forEach(function (data_to_push) {
                     data.push(data_to_push)
                 });
-                callback(data_to_push);
+                callback(response);
             });
     };
 };
